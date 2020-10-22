@@ -1,0 +1,20 @@
+[[AFL]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2287e718ad7444541b4b86b193b16afda0c2947c"
+libc = "glibc"
+os = "linux"
+
+    [[AFL.download]]
+    sha256 = "967793265dfed96e47928c685ed30d4516e3e4f2e3f9c39db65937f61ea743d5"
+    url = "https://github.com/local/releases/download/AFL-v2.68.0+0/AFL.v2.68.0.x86_64-linux-gnu-cxx03.tar.gz"
+[[AFL]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a2aaae2cf4b76b75d96137832913ac1860fd84ba"
+libc = "glibc"
+os = "linux"
+
+    [[AFL.download]]
+    sha256 = "f6b72cfd4316fe7f5b00d9a57f521a60679d7909999a9ad6bce4eb3c6a381738"
+    url = "https://github.com/local/releases/download/AFL-v2.68.0+0/AFL.v2.68.0.x86_64-linux-gnu-cxx11.tar.gz"
